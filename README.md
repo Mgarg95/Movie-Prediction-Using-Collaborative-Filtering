@@ -6,3 +6,14 @@ I divide the dataset into a 90:10 ration of training set and test set.
 I then calculate prediction score using - User Based Collaborative Filtering - Based on Top 50 users and Item Based Collaborative Filtering - Based on Top 50 movies with highest rating.
 In the next part, I get recommendations for a user based on the highest predicted ratings for a particular user.
 For example - I got predictions for the user with user id 77. I am using the predictions from the item-item collaborative filtering model for this to print the list of top 5 movies that are recommended for this particular user.
+
+FAQ-
+“What’s the difference between user-based and item-based collaborative filtering?”
+
+User-Based: Finds users with similar behaviour patterns.
+
+Example: users who rated similar movies highly may receive similar recommendations.
+
+Item-Based : Finds items with similar rating behaviour.
+
+Example: users who liked Movie A may also like Movie B because both movies are commonly liked by similar audiences.
